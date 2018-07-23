@@ -1,0 +1,205 @@
+@font-face {font-family: 'Rift-BoldItalic';font-style: italic;src: url('fonts/36EC92_0_0.eot');src: url('fonts/36EC92_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/36EC92_0_0.woff2') format('woff2'),url('fonts/36EC92_0_0.woff') format('woff'),url('fonts/36EC92_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Rift-Italic';font-style: italic;src: url('fonts/36EC92_1_0.eot');src: url('fonts/36EC92_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/36EC92_1_0.woff2') format('woff2'),url('fonts/36EC92_1_0.woff') format('woff'),url('fonts/36EC92_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Rift-LightItalic';font-style: italic;src: url('fonts/36EC92_2_0.eot');src: url('fonts/36EC92_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/36EC92_2_0.woff2') format('woff2'),url('fonts/36EC92_2_0.woff') format('woff'),url('fonts/36EC92_2_0.ttf') format('truetype');}
+
+@font-face {font-family: 'Hypatia Sans Pro';src: url('fonts/Hypatia Sans/HypatiaSansPro-Light.otf');}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Hypatia Sans Pro';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rift-BoldItalic';
+  font-style: italic;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background: url('img/background.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.stats {
+  height: 100%;
+  padding: 0 1em;
+}
+
+.stats h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row + .row {
+  margin-top: 1em;
+}
+
+.player {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.player h3 {
+  margin: 0;
+}
+
+.player-icons {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.player-icons img {
+  width: 37px;
+}
+
+img.player-hero {
+  grid-column: span 1;
+  grid-row: span 2;
+  height: 56px;
+  width: auto;
+}
+
+.player-kda {
+  margin: 0 1em;
+}
+
+#timeline {
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.key-numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.key-numbers > div {
+  height: 50%;
+  align-items: center;
+  display: flex;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Hypatia Sans Pro';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rift-BoldItalic';
+  font-style: italic;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  background: url('img/background.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.stats {
+  height: 100%;
+}
+
+.stats h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row + .row {
+  margin-top: 1em;
+}
+
+.player {
+  text-align: right;
+  margin-right: 1em;
+  width: 150px;
+}
+
+.player h3 {
+  margin: 0;
+}
+
+.player-icons {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.player-icons img {
+  width: 37px;
+}
+
+img.player-hero {
+  grid-column: span 1;
+  grid-row: span 2;
+  height: 56px;
+  width: auto;
+}
+
+.player-kda {
+  margin: 0 1em;
+  width: 50px;
+}
+
+#timeline {
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.key-numbers {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+  width: 140px;
+}
+
+.key-numbers > div {
+  height: 50%;
+  align-items: center;
+  display: flex;
+}
+
+.key-numbers em {
+  font-size: 2.75em;
+  margin-right: 0.3em;
+}
